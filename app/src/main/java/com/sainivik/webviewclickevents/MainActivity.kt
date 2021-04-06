@@ -36,12 +36,12 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.webView.settings.javaScriptEnabled = true
         binding.webView.webChromeClient = WebChromeClient()
-        binding.webView.addJavascriptInterface(CaptureClickJavascriptInterface1(), "androidButton")
+        binding.webView.addJavascriptInterface(CaptureClickJavascriptInterface(), "androidButton")
         binding.webView.loadData(data, "text/html", "UTF-8")
     }
 
 
-    private inner class CaptureClickJavascriptInterface1 {
+    private inner class CaptureClickJavascriptInterface {
         @JavascriptInterface
         fun onCapturedButtonClicked1() {
             Toast.makeText(
