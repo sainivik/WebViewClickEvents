@@ -3,7 +3,7 @@ This project is an example that shows a way to handle multiple clicks in a JavaS
 
 ### Screenshot
 
-<img src="https://github.com/sainivik/WebViewClickEvents/blob/master/app/screenshots/webview_click.gif" width="225px" height="400px"/>
+<img src="https://github.com/sainivik/WebViewClickEvents/blob/master/app/screenshots/webview_click.gif" width="225px" height="474px"/>
 
 ##  Here we are providing the HTML code that will be displayed in the `WebView`
 
